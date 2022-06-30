@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/794c49dbbb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <img src="./assets/img/camar.jpg" alt="camera" width="250px" height="125px">
+            <div class="card-text">
+                <h3>Cámara Nikon Reflex </h3>
+            </div>
+            <input id="quantity">
+            <input id="color">
+            <strong><p>Precio: $ <span id="price">400.000</span></p></strong>
+            <button onclick="calcular()" id="btnC">Calcular</button>
+        </div>
+        <div class="res">
+            <div>
+                <p>Total: $ <span id="total"></span></p>
+                <p>Cantidad: <span id="cantidad"></span></p>
+            </div>
+            <div class="resultado-color">
+                <p>color:</p>
+                <div class="color-circle"></div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
